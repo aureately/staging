@@ -159,40 +159,27 @@ h4 {
 }
 
 .logo {
-    display: inline-block;
-    float: left;
-    padding: auto;
-    margin-top: 10px;
-    margin-left: 5%;
-    margin-right: auto;
-    margin-bottom: auto;
     width: 250px;
+    float: left;
+    margin-top: 12px;
+    margin-left: 12px;
 }
-
-/*** NAVIGATION ***/
 
 .nav {
-    height: auto;
-    display: inline-block;
-    float: right;
+    display: block;
     margin-top: 25px;
-    margin-right: 0%;
-}
-.nav ul {
-    display: inline-block;
-    font-size: 15px;
-    font-family: franklin_gothic_fsbook;
-    font-weight: 200;
-    list-style: none;
-    width: 500px;
+    margin-right: 5%;
+    float: right;
 }
 
-.nav ul li {
-    display: inline-block;
-    margin-left: 9%;
-    margin-right: 0;
+ul {
+  list-style-type: none;
 }
 
+li {
+    display: inline-block;
+    margin-right: 50px;
+}
 
 /*** PAGE ***/
 
