@@ -1,0 +1,410 @@
+@media only screen and (max-width: 1000px) {
+
+/*** BREAKPOINT 1 ***/
+/*** LOGO ***/
+
+.logo {
+    display: inline-block;
+    padding: auto;
+    margin-top: 10px;
+    margin-left: 5%;
+    margin-right: 0;
+    margin-bottom: auto;
+
+}
+
+/*** NAVIGATION ***/
+
+.nav {
+    height: auto;
+    display: inline-block;
+    float: right;
+    margin-top: 25px;
+    margin-right: 3%;
+}
+.nav ul {
+    display: inline-block;
+    font-size: 15px;
+    font-family: franklin_gothic_fsbook;
+    font-weight: 200;
+    list-style: none;
+    width: 400px;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin-left: 9%;
+    margin-right: 0;
+}
+
+/*** INDEX: FEATURED IMAGE ***/
+.featured {
+    background: url('../assets/index_featured_2x.png') no-repeat;
+    background-size: cover;
+    background-position: 70% 70%;
+    width: 100%;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+h1 {
+    font-family: league_gothicregular;
+    font-weight: 300;
+    font-size: 58px;
+    color: #ffffff;
+    margin-top: 12%;
+    margin-left: 6%;
+    margin-bottom: 0;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+}
+
+
+/*** GLOBAL PROJECT SPECS ***/
+
+.project {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 766px) {
+
+/*** BREAKPOINT 2 ***/
+/*** LOGO ***/
+
+.header {
+    margin: 0;
+    background-color: #000000;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    display: block;
+    z-index: 200;
+}
+
+.logo {
+    display: inline-block;
+    padding: auto;
+    margin-top: 10px;
+    margin-left: 33%;
+    margin-right: auto;
+    margin-bottom: auto;
+    width: 180px;
+    text-align: center;
+    clear: both;
+}
+
+/*** NAVIGATION ***/
+
+.nav {
+    height: auto;
+    display: block;
+    margin-top: 2%;
+    margin-right: 7%;
+    margin-left: auto;
+    padding: 0;
+    clear: both;
+    width: 100%;
+    text-align: center;
+}
+.nav ul {
+    display: inline-block;
+    font-size: 15px;
+    font-family: franklin_gothic_fsbook;
+    font-weight: 200;
+    list-style: none;
+    width: 500px;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 0;
+}
+
+
+
+/*** INDEX: FEATURED IMAGE ***/
+.featured {
+    background: url('../assets/index_featured_2x.png') no-repeat;
+    background-size: cover;
+    background-position: 70% 70%;
+    width: 100%;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+h1 {
+    font-family: league_gothicregular;
+    font-weight: 300;
+    font-size: 58px;
+    color: #ffffff;
+    margin-top: 9%;
+    margin-left: 6%;
+    margin-bottom: 0;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+}
+
+.featured p {
+    width: 30%;
+}
+
+.arrow {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+/*** INDEX: THUMBNAILS ***/
+
+.work {
+    width: 88%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    padding: 0;
+}
+
+.thumbnail {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    background-color: #ccc000;
+    margin-bottom: 10px;
+    margin-top: 0;
+    padding: 0;
+    position: relative;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.arrowthumb {
+    width: 25px;
+    height: 25px;
+    margin: 0;
+    z-index: 30;
+    padding: 0;
+    margin-left: 43%;
+    margin-top: 23%;
+    margin-right: 0;
+    padding: 0;
+    position: absolute;
+    display: none;
+}
+
+h2 {
+    font-family: league_gothicregular;
+    font-weight: 300;
+    font-size: 26px;
+    -webkit-font-smoothing: antialiased;
+    display: block;
+    color: #737373;
+    border-bottom: 1px solid #b18f61;
+    margin: auto;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 400px) {
+
+/*** BREAK POINT 3 ***/
+/*** LOGO ***/
+
+.header {
+    margin: 0;
+    background-color: #000000;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    display: block;
+    z-index: 200;
+}
+
+.logo {
+    display: inline-block;
+    padding: auto;
+    margin-top: 10px;
+    margin-left: 25%;
+    margin-right: 30%;
+    margin-bottom: auto;
+    width: 180px;
+    text-align: center;
+    clear: both;
+}
+
+/*** NAVIGATION ***/
+
+.nav {
+    height: auto;
+    display: block;
+    margin-top: 2%;
+    margin-right: 26%;
+    margin-left: 30%;
+    padding: 0;
+    clear: both;
+    width: 100%;
+}
+.nav ul {
+    display: inline-block;
+    font-size: 15px;
+    font-family: franklin_gothic_fsbook;
+    font-weight: 200;
+    list-style: none;
+    width: 500px;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 0;
+}
+
+
+/*** INDEX: FEATURED IMAGE ***/
+.featured {
+    background: url('../assets/index_featured_1x.png') no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    width: 100%;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+h1 {
+    font-family: league_gothicregular;
+    font-weight: 300;
+    font-size: 38px;
+    color: #ffffff;
+    margin-top: 14%;
+    margin-left: 12%;
+    margin-bottom: 0;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    width: 100%;
+    line-height: 53px;
+}
+
+.featured p {
+    width: 100%;
+    margin-left: 12%;
+}
+
+.arrow {
+    width: 30px;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 27.5%;
+    left: 50%;
+}
+
+/*** INDEX: THUMBNAILS ***/
+
+.work {
+    width: 88%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    padding: 0;
+}
+
+.thumbnail {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    background-color: #ccc000;
+    margin-bottom: 10px;
+    margin-top: 0;
+    padding: 0;
+    position: relative;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.arrowthumb {
+    width: 25px;
+    height: 25px;
+    margin: 0;
+    z-index: 30;
+    padding: 0;
+    margin-left: 43%;
+    margin-top: 23%;
+    margin-right: 0;
+    padding: 0;
+    position: absolute;
+    display: none;
+}
+
+h2 {
+    font-family: league_gothicregular;
+    font-weight: 300;
+    font-size: 28px;
+    -webkit-font-smoothing: antialiased;
+    display: block;
+    color: #737373;
+    border-bottom: 1px solid #b18f61;
+    margin: auto;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+
+/*** GLOBAL PROJECT SPECS ***/
+
+.project {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.aboutproject {
+    width: 100%;
+    margin: 0;
+    display: inline-block;
+    clear: both;
+}
+
+.details {
+    width: 100%;
+    display: inline-block;
+    margin: 0;
+    clear: both;
+}
+
+}

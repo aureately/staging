@@ -1,0 +1,337 @@
+/*** FONTS ***/
+
+@font-face {
+    font-family: 'league_gothicregular';
+    src: url('../font/leaguegothic-regular-webfont.woff2') format('woff2'),
+         url('../font/leaguegothic-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'franklin_gothic_fsbook';
+    src: url('../font/franklingothic-book-webfont.woff2') format('woff2'),
+         url('../font/franklingothic-book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'franklin_gothic_fsbook_italic';
+    src: url('../font/franklingothic-bookit-webfont.woff2') format('woff2'),
+         url('../font/franklingothic-bookit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    font-family: franklin_gothic_fsbook;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+    background: #ffffff;
+    width: 100%;
+}
+
+/*** TEXT ***/
+
+a {
+    text-decoration: none;
+}
+
+.select a, .select a:hover, .select a:visited {
+    text-decoration: none;
+    border-bottom: 1px solid #b18f61;
+    padding-bottom: 4px;
+    color: #b18f61;
+}
+
+.link a, .link a:visited {
+    text-decoration: none;
+    color: #b5b5b5;
+}
+
+.link a:hover {
+    text-decoration: none;
+    color: #b18f61;
+}
+
+a.linkgold, a.linkgold:visited {
+    color: #b18f61;
+}
+
+a.linkgold:hover {
+    color: #957448;
+}
+
+a.linkgrey, a.linkgold:visited {
+    color: #737373;
+}
+
+a.linkgrey:hover {
+    color: #898989;
+}
+
+.details_desc .linkicon {
+    width: 8px;
+    margin: 0;
+    padding-left: 5px;
+}
+
+.featured p {
+    color: #ffffff;
+    margin-top: 0px;
+    margin-left: 6.25%;
+    display: block;
+}
+
+.aboutproject p {
+    line-height: 20px;
+}
+
+.details_desc {
+    font-family: franklin_gothic_fsbook;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    font-size: 12px;   
+    margin: 0;
+}
+
+h1 {
+    font-family: league_gothicregular;
+    font-weight: 300;
+    font-size: 80px;
+    color: #ffffff;
+    margin-top: 14%;
+    margin-left: 6%;
+    margin-bottom: 0;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+}
+
+h2 {
+    font-family: league_gothicregular;
+    font-weight: 300;
+    font-size: 18px;
+    -webkit-font-smoothing: antialiased;
+    display: block;
+    color: #737373;
+    border-bottom: 1px solid #b18f61;
+    margin: auto;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+h3 {
+    font-family: league_gothicregular;
+    font-weight: 300;
+    font-size: 28px;
+    -webkit-font-smoothing: antialiased;
+    display: block;
+    margin: auto;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-family: league_gothicregular;
+    font-weight: 300;
+    font-size: 20px;
+    -webkit-font-smoothing: antialiased;
+    display: block;
+    margin-bottom: 0;
+    margin-top: 18px;
+}
+
+/*** LOGO ***/
+
+.header {
+    margin: 0;
+    background-color: #000000;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    display: block;
+    z-index: 200;
+}
+
+.logo {
+    display: inline-block;
+    float: left;
+    padding: auto;
+    margin-top: 10px;
+    margin-left: 5%;
+    margin-right: auto;
+    margin-bottom: auto;
+    width: 250px;
+}
+
+/*** NAVIGATION ***/
+
+.nav {
+    height: auto;
+    display: inline-block;
+    float: right;
+    margin-top: 25px;
+    margin-right: 0%;
+}
+.nav ul {
+    display: inline-block;
+    font-size: 15px;
+    font-family: franklin_gothic_fsbook;
+    font-weight: 200;
+    list-style: none;
+    width: 500px;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin-left: 9%;
+    margin-right: 0;
+}
+
+
+/*** PAGE ***/
+
+.page {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    background-color: #f2f2f2;
+    margin: 0;
+    display: inline-block;
+    clear: both;
+}
+
+.small_icon {
+    width: 100px;
+    height: auto;
+}
+
+/*** INDEX: FEATURED IMAGE ***/
+.featured {
+    background: url('../assets/index_featured_2x.png') no-repeat;
+    background-size: cover;
+    background-position: right center;
+    width: 100%;
+    height: 528px;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.arrow {
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 6%;
+}
+
+.arrow:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50px;
+    transition: 500ms;
+    transition-timing-function: ease-in;
+    -webkit-transition: 600ms;
+    -webkit-transition-timing-function: ease-i-out;
+}
+
+/*** INDEX: THUMBNAILS ***/
+
+.work {
+    width: 88%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    padding: 0;
+}
+
+.thumbnail {
+    width: 49.6%;
+    height: auto;
+    display: inline-block;
+    background-color: #ccc000;
+    margin-bottom: -10px;
+    margin-top: 0;
+    padding: 0;
+    position: relative;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.arrowthumb {
+    width: 35px;
+    height: 35px;
+    margin: 0;
+    z-index: 30;
+    padding: 0;
+    margin-left: 45%;
+    margin-top: 23%;
+    margin-right: 0;
+    padding: 0;
+    position: absolute;
+    display: none;
+}
+
+
+/*** GLOBAL PROJECT SPECS ***/
+
+.project {
+    width: 60%;
+    height: auto;
+    margin-left: 20%;
+    margin-right: 20%;
+    position: relative;
+    display: block;
+    margin-bottom: 0;
+    clear: both;
+}
+
+.aboutproject {
+    width: 60%;
+    height: auto;
+    margin: 0;
+    display: inline-block;
+    float: left;
+    margin-right: 15%;
+    position: relative;
+    margin-bottom: 10%;
+}
+
+.details {
+    width: 25%;
+    display: inline-block;
+    margin: 0;
+    float: left;
+    position: relative;
+}
+
+.featuredvisual {
+    width: 100%;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.descriptions {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+}
+
+/*** VIDEO SPECS ***/
+
+video {
+    display: block !important;
+    width: 100%;
+    height: auto;
+    clear: both;
+}
