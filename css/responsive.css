@@ -141,11 +141,11 @@ h1 {
 
 /*** INDEX: FEATURED IMAGE ***/
 .featured {
-    background: url('../assets/index_featured_1x.png') no-repeat;
+    background: url('../assets/index_featured_2x.png') no-repeat;
     background-size: cover;
-    background-position: bottom center;
+    background-position: 70% 70%;
     width: 100%;
-    height: 500px;
+    height: 300px;
     margin: 0;
     padding: 0;
     display: block;
@@ -153,30 +153,23 @@ h1 {
 h1 {
     font-family: league_gothicregular;
     font-weight: 300;
-    font-size: 38px;
+    font-size: 58px;
     color: #ffffff;
-    margin-top: 14%;
-    margin-left: 12%;
+    margin-top: 9%;
+    margin-left: 6%;
     margin-bottom: 0;
     -webkit-font-smoothing: antialiased;
     display: inline-block;
-    width: 100%;
-    line-height: 53px;
 }
 
 .featured p {
-    width: 100%;
-    margin-left: 12%;
+    width: 30%;
 }
 
 .arrow {
     width: 30px;
     height: 30px;
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    top: 27.5%;
-    left: 50%;
+    margin-top: 10px;
 }
 
 /*** INDEX: THUMBNAILS ***/
@@ -250,6 +243,48 @@ h2 {
 }
 
 
+@media only screen and (max-width: 472px) {
+
+/*** INDEX: FEATURED IMAGE ***/
+.featured {
+    background: url('../assets/index_featured_1x.png') no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    width: 100%;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+h1 {
+    font-family: league_gothicregular;
+    font-weight: 300;
+    font-size: 50px;
+    color: #ffffff;
+    margin-top: 10%;
+    margin-left: 12%;
+    margin-bottom: 0;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    width: 100%;
+    line-height: 53px;
+    float: left;
+}
+
+.featured p {
+    width: 100%;
+    margin-left: 12%;
+}
+
+.arrow {
+    width: 30px;
+    height: 30px;
+    margin-top: -75px;
+    margin-left: 270px;
+    padding: 0;
+    float: left;
+}
+}
 
 
 
