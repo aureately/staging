@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1000px) {
+@media only screen and (min-width: 767px) and (max-width: 1000px) {
 
 /*** BREAKPOINT 1 ***/
 /*** LOGO ***/
@@ -80,7 +80,7 @@ h1 {
 
 
 
-@media only screen and (max-width: 766px) {
+@media only screen and (min-width: 401px) and (max-width: 766px) {
 
 /*** BREAKPOINT 2 ***/
 /*** LOGO ***/
