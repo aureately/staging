@@ -80,7 +80,7 @@ h1 {
 
 
 
-@media only screen and (min-width: 401px) and (max-width: 766px) {
+@media only screen and (min-width: 501px) and (max-width: 766px) {
 
 /*** BREAKPOINT 2 ***/
 /*** LOGO ***/
@@ -245,7 +245,7 @@ h2 {
 
 
 
-@media only screen and (min-width: 1px) and (max-width: 400px) {
+@media only screen and (min-width: 1px) and (max-width: 500px) {
 
 /*** BREAK POINT 3 ***/
 /*** LOGO ***/
