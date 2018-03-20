@@ -70,6 +70,19 @@ h1 {
     margin-right: 10%;
 }
 
+.aboutproject {
+    width: 100%;
+    margin: 0;
+    display: inline-block;
+    clear: both;
+}
+
+.details {
+    width: 100%;
+    display: inline-block;
+    margin: 0;
+    clear: both;
+}
 
 
 
@@ -391,20 +404,6 @@ h2 {
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
-}
-
-.aboutproject {
-    width: 100%;
-    margin: 0;
-    display: inline-block;
-    clear: both;
-}
-
-.details {
-    width: 100%;
-    display: inline-block;
-    margin: 0;
-    clear: both;
 }
 
 }
