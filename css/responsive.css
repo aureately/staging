@@ -243,54 +243,9 @@ h2 {
 }
 
 
-@media only screen and (max-width: 472px) {
-
-/*** INDEX: FEATURED IMAGE ***/
-.featured {
-    background: url('../assets/index_featured_1x.png') no-repeat;
-    background-size: cover;
-    background-position: bottom center;
-    width: 100%;
-    height: 500px;
-    margin: 0;
-    padding: 0;
-    display: block;
-}
-h1 {
-    font-family: league_gothicregular;
-    font-weight: 300;
-    font-size: 50px;
-    color: #ffffff;
-    margin-top: 10%;
-    margin-left: 12%;
-    margin-bottom: 0;
-    -webkit-font-smoothing: antialiased;
-    display: inline-block;
-    width: 100%;
-    line-height: 53px;
-    float: left;
-}
-
-.featured p {
-    width: 100%;
-    margin-left: 12%;
-}
-
-.arrow {
-    width: 30px;
-    height: 30px;
-    margin-top: -75px;
-    margin-left: 270px;
-    padding: 0;
-    float: left;
-}
-}
 
 
-
-
-
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
 
 /*** BREAK POINT 3 ***/
 /*** LOGO ***/
@@ -347,6 +302,45 @@ h1 {
 }
 
 
+/*** INDEX: FEATURED IMAGE ***/
+.featured {
+    background: url('../assets/index_featured_1x.png') no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    width: 100%;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+h1 {
+    font-family: league_gothicregular;
+    font-weight: 300;
+    font-size: 50px;
+    color: #ffffff;
+    margin-top: 10%;
+    margin-left: 12%;
+    margin-bottom: 0;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    width: 100%;
+    line-height: 53px;
+    float: left;
+}
+
+.featured p {
+    width: 100%;
+    margin-left: 12%;
+}
+
+.arrow {
+    width: 30px;
+    height: 30px;
+    margin-top: -75px;
+    margin-left: 270px;
+    padding: 0;
+    float: left;
+}
 
 /*** INDEX: THUMBNAILS ***/
 
