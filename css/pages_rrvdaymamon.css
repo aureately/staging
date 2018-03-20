@@ -63,9 +63,8 @@ body {
 
 /*** RESPONSIVE ***/
 
-
-@media only screen and (max-width: 1000px) {
-/*** BREAKPOINT 1 ***/
+@media only screen and (max-width: 766px) {
+/*** BREAKPOINT 3 ***/
 
 .aboutproject {
     clear: both;
@@ -76,10 +75,6 @@ body {
     clear: both;
     width: 80%;
 }
-}
-
-
-@media only screen and (max-width: 766px) {
 
 .featured_redribbon img {
     width: 150%;
