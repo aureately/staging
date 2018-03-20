@@ -34,14 +34,14 @@ h4 {
 
 .blurb {
     color: #b18f61;
-    font-size: 50pt;
-    font-family: league_gothicregular;
-    font-weight: 300;
-    width: 70%;
+    font-size: 30pt;
+    font-family: libre baskerville;
+    font-weight: 400;
+    font-style: italic;
+    width: 75%;
     margin-left: 15%;
     margin-right: 15%;
-    text-transform: uppercase;
-    line-height: 50pt;
+    line-height: 40pt;
 }
 
 
