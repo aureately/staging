@@ -1,5 +1,9 @@
 $(document).ready(function() {
 
+// Fade
+
+	$('body').fadeIn(700);
+
 // Hover Equals Arrow
 
     $('.thumbnail a').mouseover(function() {
