@@ -166,19 +166,17 @@ h4 {
 }
 
 .nav {
-    display: block;
-    margin-top: 25px;
-    margin-right: 5%;
-    float: right;
-}
-
-ul {
-  list-style-type: none;
-}
-
-li {
     display: inline-block;
-    margin-right: 50px;
+    float: right;
+    margin-top: 25px;
+    width: 400px;
+    padding: 0;
+}
+
+.nav p {
+    display: inline-block;
+    margin-left: 6%;
+    margin-right: 6%;
 }
 
 /*** PAGE ***/

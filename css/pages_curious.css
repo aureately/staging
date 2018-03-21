@@ -42,11 +42,12 @@ body {
 }
 
 .featured_curious .details_desc {
-    color: #737373;    
+    color: #737373;
 }
 
-
-
+.featured_curious .details {
+    margin-bottom: 8%;
+}
 
 
 
