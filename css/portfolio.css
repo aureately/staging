@@ -40,11 +40,16 @@ a {
     text-decoration: none;
 }
 
-.select a, .select a:hover, .select a:visited {
+.select a, .select a:visited {
     text-decoration: none;
     border-bottom: 1px solid #b18f61;
     padding-bottom: 4px;
     color: #b18f61;
+}
+
+.select a:hover {
+    transition: color 0.6s ease-in-out;
+    color: #a8885c;
 }
 
 .link a, .link a:visited {
@@ -55,6 +60,7 @@ a {
 .link a:hover {
     text-decoration: none;
     color: #b18f61;
+    transition: color 0.6s ease-in-out;
 }
 
 a.linkgold, a.linkgold:visited {
@@ -63,6 +69,7 @@ a.linkgold, a.linkgold:visited {
 
 a.linkgold:hover {
     color: #957448;
+    transition: color 0.6s ease-in-out;
 }
 
 a.linkgrey, a.linkgold:visited {
@@ -71,6 +78,7 @@ a.linkgrey, a.linkgold:visited {
 
 a.linkgrey:hover {
     color: #898989;
+    transition: color 0.6s ease-in-out;
 }
 
 .details_desc .linkicon {
