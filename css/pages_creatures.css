@@ -51,8 +51,11 @@ video {
     position: relative;
     top: -8%;
     clear: both;
+    display: block !important;
 }
-
+img.togglemobile {
+    display: none !important;
+}
 
 @media only screen and (max-width: 766px) {
 
@@ -61,3 +64,16 @@ video {
 }
 
 }
+
+@media only screen and (max-width: 500px) {
+
+video {
+    display: none !important;
+}
+
+img.togglemobile {
+    display: block !important;
+    width: 100%;
+    margin: 0;
+}
+|
