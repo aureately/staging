@@ -71,7 +71,7 @@ h4 {
 }
 
 .wearehere_4 .descriptions {
-    margin-bottom: 80px;
+    margin-bottom: 20px;
 }
 
 .weareherebanner {
@@ -95,22 +95,39 @@ h4 {
     margin-right: 20%;
 }
 
+video {
+    display: block !important;
+}
+
+.togglemobile {
+    display: none !important;
+}
+
 /*** RESPONSIVE ***/
 
 
 @media only screen and (max-width: 1000px) {
 /*** BREAKPOINT 1 ***/
 
-.descriptions {
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-}
 .wearehereseq {
     width: 100%;
     margin-left: 0;
     margin-right: 0;
 }
+
+.descriptions {
+    width: 100%;
+    margin: 0;
+}
+.descriptions p, .descriptions h4 {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.featured_wearehere .details {
+    margin-bottom: 5%;
+}
+
 }
 
 @media only screen and (max-width: 766px) {
@@ -149,16 +166,12 @@ h4 {
     margin-bottom: 15%;
 }
 
-.featured_wearehere .details {
-    margin-bottom: 5%;
-}
-
 .wearehereseq {
     width: 180%;
     margin-left: -38%;
 }
 
-section .descriptions {
+.descriptions p, .descriptions h4 {
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
@@ -167,6 +180,16 @@ section .descriptions {
 .wearehere_5 .descriptions {
     margin-bottom: 5px;
 }
+
+video {
+    display: none !important;
+}
+
+.togglemobile {
+    display: block !important;
+    width: 100%;
+}
+
 }
 
 
